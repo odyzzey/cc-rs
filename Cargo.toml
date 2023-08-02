@@ -24,6 +24,7 @@ jobserver = { version = "0.1.16", optional = true }
 libc = "0.2.62"
 
 [features]
+default = ["parallel"]
 parallel = ["jobserver"]
 
 [dev-dependencies]
